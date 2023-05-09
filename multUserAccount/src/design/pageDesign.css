@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05 4, 23, 11:37:05 PM
+    Author     : WINDOWS 10
+*/
+
+.white-form{
+    -fx-background-color: #fff;
+}
+
+.textfield{
+    -fx-background-color: transparent;
+    -fx-border-color: #000;
+    -fx-border-width: .5px;
+}
+.textfield:focused{
+    -fx-border-width: 1px;
+    -fx-border-color: dodgerblue;
+}
+
+.btn{
+    -fx-background-color: dodgerblue;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+    -fx-border-color: #000;
+    -fx-border-width: .2px;
+}
+.btn:hover{
+    -fx-background-color: cornflowerblue;
+}
